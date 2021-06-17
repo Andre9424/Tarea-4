@@ -52,7 +52,7 @@
 { "type": "Feature", "properties": { "id": "46", "Decripcion": "Pozo", "Radio": 100 }, "geometry": { "type": "Point", "coordinates": [ -84.162753181225952, 9.823058095049449 ] } },
 { "type": "Feature", "properties": { "id": "47", "Decripcion": "Pozo", "Radio": 100 }, "geometry": { "type": "Point", "coordinates": [ -84.197049843944598, 9.810881977888766 ] } },
 { "type": "Feature", "properties": { "id": "48", "Decripcion": "Pozo", "Radio": 100 }, "geometry": { "type": "Point", "coordinates": [ -84.207863735678998, 9.840794916594609 ] } },
-{ "type": "Feature", "properties": { "id": "49", "Decripcion": null, "Radio": 100 }, "geometry": { "type": "Point", "coordinates": [ -84.198662115496987, 9.807578891179574 ] } },
+{ "type": "Feature", "properties": { "id": "49", "Decripcion": "Naciente", "Radio": 100 }, "geometry": { "type": "Point", "coordinates": [ -84.198662115496987, 9.807578891179574 ] } },
 { "type": "Feature", "properties": { "id": "50", "Decripcion": "Naciente", "Radio": 100 }, "geometry": { "type": "Point", "coordinates": [ -84.1935153884735, 9.805180305416206 ] } },
 { "type": "Feature", "properties": { "id": "51", "Decripcion": "Naciente", "Radio": 100 }, "geometry": { "type": "Point", "coordinates": [ -84.184944494746588, 9.813490489933779 ] } },
 { "type": "Feature", "properties": { "id": "52", "Decripcion": "Naciente", "Radio": 100 }, "geometry": { "type": "Point", "coordinates": [ -84.178185507883796, 9.814794957064843 ] } },
@@ -161,7 +161,5 @@
 { "type": "Feature", "properties": { "id": "155", "Decripcion": "Naciente", "Radio": 60 }, "geometry": { "type": "Point", "coordinates": [ -84.184742990467839, 9.813990925197318 ] } },
 { "type": "Feature", "properties": { "id": "156", "Decripcion": "Naciente", "Radio": 60 }, "geometry": { "type": "Point", "coordinates": [ -84.184540433260196, 9.812590124463595 ] } },
 { "type": "Feature", "properties": { "id": "157", "Decripcion": "Naciente", "Radio": 60 }, "geometry": { "type": "Point", "coordinates": [ -84.196461328745301, 9.839400827964436 ] } },
-{ "type": "Feature", "properties": { "id": "158", "Decripcion": "Naciente", "Radio": 60 }, "geometry": null },
-{ "type": "Feature", "properties": { "id": "159", "Decripcion": "Naciente", "Radio": 60 }, "geometry": null }
 ]
 }
