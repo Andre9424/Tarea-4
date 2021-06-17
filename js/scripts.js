@@ -70,18 +70,18 @@ $.getJSON("https://andre9424.github.io/Tarea-4/Nacientes/NacienteWGS84.geojson",
   });
   
     // Capa de calor (heatmap) 
-	//coordenadas = geodata.features.map(feat => feat.geometry.coordinates.reverse());
-	//var capa_nacientes_calor = L.heatLayer(coordenadas, {radius: 30, blur: 1});
+	coordenadas = geodata.features.map(feat => feat.geometry.coordinates.reverse());
+	var capa_nacientes_calor = L.heatLayer(coordenadas, {radius: 30, blur: 1});
 
   // Capa de puntos agrupados
   var capa_nacientes_agrupados = L.markerClusterGroup({showCoverageOnHover: false, spiderfyOnMaxZoom: true});
   capa_nacientes_agrupados.addLayer(capa_nacientes);
 
   // Se añade la capa al mapa y al control de capas
-	//capa_nacientes_calor.addTo(mapa); 
+	capa_nacientes_calor.addTo(mapa); 
 	capa_nacientes_agrupados.addTo(mapa);
 	
-	//control_capas.addOverlay(capa_nacientes_calor, 'Mapa de calor'); 
+	control_capas.addOverlay(capa_nacientes_calor, 'Mapa de calor'); 
 	control_capas.addOverlay(capa_nacientes_agrupados, 'Registros agrupados de nacientes');
 	control_capas.addOverlay(capa_nacientes, 'Registros individuales de nacientes');
 });
